@@ -5,7 +5,7 @@ This is a simple repo to test the behavior of cmake's find_dependency command wi
 ```
 mkdir build
 cd build
-cmake .. -DCMAKE_PREFIX_PATH:PATH=/path/to/gtest
+cmake .. -DCMAKE_PREFIX_PATH:PATH=/path/to/not/conan/gtest
 ```
 The output shows:
 ```
